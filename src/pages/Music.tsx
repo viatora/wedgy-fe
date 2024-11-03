@@ -3,7 +3,7 @@ import bandCampData from "../assets/data/bandcamp.json";
 
 export default function Music() {
   return (
-    <>
+    <main className="min-h-[calc(100vh-9.25rem)]">
       <h2 className=" font-lexend text-white text-5xl md:text-7xl text-center tracking-widest">
         MUSIC
       </h2>
@@ -27,6 +27,6 @@ export default function Music() {
           }
         })}
       </div>
-    </>
+    </main>
   );
 }
